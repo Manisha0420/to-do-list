@@ -1,8 +1,6 @@
 To-Do List:
 This is a simple To-Do List web application hosted on GitHub Pages.
 
-Live Demo :  Click here to view the project
-
 Features:
 Add tasks to the list
 Mark tasks as completed
