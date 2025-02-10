@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="main">
+                <div class="date_time">
+                    <h3 id="currentDate"></h3>  <!-- This is where the date will be inserted -->
+             </div> 
+             <hr>
+                <div class="to-do">
+                    <h1>TO DO LIST</h1>
+                    <div class="row">
+                        <input type="text" id="inp" placeholder="Add your Text">
+                        <button onclick="Add()">Add</button>
+                    </div>
+                    <div class="text"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+     margin: 0%;
+     padding: 0%;
+}
+html,body{
+     width: 100%;
+     height: 100%;
+}
+.container{
+     width: 100vw;
+     height: 100vh;
+     background:linear-gradient(to right ,#BB6CE3,#9CC3FE);
+}
+.container > div{
+     width: 90vw;
+     height: 90vh;
+     padding-top: 3rem;
+}
+.container > div>.main{
+     width: 40vw;
+     background-color: white;
+     border-radius: 1rem;
+     margin: 0rem 29rem;
+    
+}
+.container >div> .main> .date_time{
+     height: 2vh;
+     padding: 2rem;
+     text-align: center;
+     font-size: 1.5rem;
+}
+.container >div> .main>.to-do{
+     /* text-align: center; */
+     padding: 1rem;
+}
+.container >div> .main>.to-do>h1{
+     line-height: 2;
+}
+.container >div> .main>.to-do>.row{
+     display: flex;
+     align-items: center;
+     justify-content: space-between; 
+     background-color: rgb(232, 231, 231);
+     padding-left: 20px;
+     margin-bottom: 25px;
+     border-radius: 2rem;
+}
+
+.container >div> .main>.to-do>.row>input{
+     border: none;
+     flex:1;
+     outline: none;
+     padding: 10px;
+     background-color: transparent;
+}
+.container >div> .main>.to-do>.row>button{
+     padding: 0.5rem 1.9rem;
+     border:none;
+     outline: none;
+     font-size: 1rem;
+     cursor: pointer;
+     border-radius: 2rem;
+     background-color:tomato  ;
+}
+
+.text ul{
+     position: relative;
+     font-size: 19px;
+     text-align: left;
+     padding: 7px;
+}
+.text ul i{
+     position: absolute;
+     right: 10px;
+     cursor: pointer;
+}
